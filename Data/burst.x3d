@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+<head>
+	<meta name="filename" content="<memory>" />
+	<meta name="generator" content="Blender 245" />
+	<meta name="translator" content="X3D exporter v1.55 (2006/01/17)" />
+</head>
+<Scene>
+
+<NavigationInfo headlight="FALSE" visibilityLimit="100.0" type="EXAMINE, ANY" avatarSize="0.25, 1.75, 0.75" />
+
+<Background groundColor="0.057 0.221 0.4" skyColor="0.057 0.221 0.4" />
+
+<Transform DEF="Cube" translation="0.0 0.0 0.0">
+	<Shape>
+		<Appearance>
+			<Material DEF="MA_Material" diffuseColor="0.8 0.8 0.8" specularColor="0.401 0.401 0.401" emissiveColor="0.0 0.0 0.0" 
+				ambientIntensity="0.167" shininess="0.098" transparency="0.0" />			
+		</Appearance>
+		<IndexedFaceSet solid="true" coordIndex="0 9 8 4 -1, 9 0 3 10 -1, 7 11 10 3 -1, 4 8 11 7 -1, 8 9 10 11 -1, 6 13 12 2 -1, 7 14 13 6 -1, 3 15 14 7 -1, 2 12 15 3 -1, 12 13 14 15 -1, 5 17 16 1 -1, 6 18 17 5 -1, 2 19 18 6 -1, 1 16 19 2 -1, 16 17 18 19 -1, 20 0 4 21 -1, 5 22 21 4 -1, 1 23 22 5 -1, 0 20 23 1 -1, 20 21 22 23 -1, 7 25 24 4 -1, 6 26 25 7 -1, 5 27 26 6 -1, 4 24 27 5 -1, 24 25 26 27 -1, 28 0 1 29 -1, 2 30 29 1 -1, 3 31 30 2 -1, 0 28 31 3 -1, 28 29 30 31 -1, ">
+			<Coordinate DEF="coord_Cube" 
+				point="1.000000 1.000000 -1.000000, 1.000000 -1.000000 -1.000000, -1.000000 -1.000000 -1.000000, -1.000000 1.000000 -1.000000, 1.000000 0.999999 1.000000, 0.999999 -1.000001 1.000000, -1.000000 -1.000000 1.000000, -1.000000 1.000000 1.000000, 0.999998 -8.248372 0.999998, 0.999998 -8.248371 -1.000002, -1.000002 -8.248371 -1.000002, -1.000002 -8.248371 0.999998, 8.248371 -1.000002 -0.999999, 8.248371 -1.000002 1.000001, 8.248371 0.999998 1.000001, 8.248371 0.999998 -0.999999, 1.000003 8.248371 -0.999999, 1.000002 8.248370 1.000001, -0.999998 8.248371 1.000001, -0.999997 8.248371 -0.999999, -8.248371 1.000003 -1.000000, -8.248371 1.000002 1.000000, -8.248372 -0.999998 1.000000, -8.248371 -0.999997 -1.000000, 1.000000 0.999999 -8.248371, -1.000000 1.000000 -8.248371, -1.000000 -1.000000 -8.248371, 0.999999 -1.000001 -8.248371, 1.000000 1.000000 8.248371, 1.000000 -1.000000 8.248371, -1.000000 -1.000000 8.248371, -1.000000 1.000000 8.248371, " />			
+		</IndexedFaceSet>
+	</Shape>
+</Transform>
+
+<PointLight DEF="Lamp" ambientIntensity="0.0" color="1.0 1.0 1.0" intensity="0.571" radius="29.9999828339" location="4.076 1.005 5.904" />
+
+<Viewpoint DEF="Camera" description="Camera" centerOfRotation="0 0 0" position="7.48 5.34 6.51" orientation="-1.05 1.91 0.47 0.93" fieldOfView="0.661" />
+
+
+
+</Scene>
+</X3D>
